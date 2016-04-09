@@ -11,7 +11,7 @@ def findResult(n):
 	return n-temp
 
 
-with open('A-small-attempt0.in','r') as fin:
+with open('A-large.in','r') as fin:
 	with open('output.out','w') as fout:
 		num = int(fin.readline())
 		for i in range(1, num+1):
